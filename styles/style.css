@@ -1,0 +1,101 @@
+@import url('./layout.css');
+
+/*Main Nav */
+body > nav ul {
+    display: flex;
+    justify-content: space-around;
+    background: brown;
+}
+
+body > nav li{
+    padding: 1em
+}
+
+body > nav a {
+
+    text-decoration: none;
+    color: white;   
+}
+
+body > nav a:hover {
+    color: #f39c12;
+}
+
+/* Header */
+body > header{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 1em;  
+}
+
+/* main */
+main {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 1;
+    
+}
+
+
+.img{
+    width:230px
+    
+}
+.Source {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+     
+}
+section{
+    width: 250px;
+    text-align: left;
+    margin-right: 20px;
+    border: 1px solid black;
+    order: 2;
+    border-radius: 10px;
+    
+}
+
+
+p {
+    margin-top: 1em;
+}
+
+.price {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+article img{
+    width: 300px;
+}
+
+/*Aside*/
+aside {
+    width: 30%;
+    order: 2;
+}
+
+#link{
+    text-align: center;
+    height: 50px;
+    background-color: #333;
+    color:white;
+}
+
+section {
+    width: 250px;
+    text-align: center;
+    border: 1px solid black;
+    order: 1;
+}
